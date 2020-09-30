@@ -1,23 +1,13 @@
 ---
-title: "Scientific Rmd Blogging"
+title: "Blogueo con R Markdown"
 ---
 
-# Scientific Blogging with R Markdown
+# Blogueo con R Markdown
 
-Are you an R user who works in science? Would you like sharing more
-online? How about starting a new blog, with R Markdown (Rmd)? 
+Eres un usuari@ de R y querrías compartir más contenido en linea? Porqué no crear un nuevo blog, con R Markdown (Rmd)? En esta charla-taller de 2 horas con demonstración en vivo, tendremos dos adventuras:
 
-In this
-2-hour course with live coding, we'll go on three short adventures:
+* Crear un blog Rmd con el paquete distill
+* Crear un blog Rmd con el paquete hugodown
 
-- setting up a scientific Rmd blog with the Distill framework and the
-distill package;
 
-- setting up a scientific Rmd blog with the Hugo website generator and
-the hugodown package.
-
-We'll prepare for the adventures by defining what we expect of an Rmd blog.
-We'll end the course by reflecting on each adventure as well as
-mentioning important future paths such as how to promote your blog.
-You should leave the course ready to start a scientific R Markdown blog
-with your tool of choice, and knowing where to find more resources and help.
+Nos preparamos para estas aventuras definiendo lo que queremos de un blog Rmd. Acabaremos el curso reflecionando sobre cada aventura y explicando caminos futuros, por ejemplo cómo hacer la publicidad de tu blog. Si todo va bien al final del curso te sentirás capaz de crear un blog Rmd con el paquete que prefieras, y sabrás donde encontrar más recursos. 
