@@ -53,6 +53,9 @@ What if I don't really want to blog regularly?
 <!--/html_preserve-->
 ---
 
+`r hugodown::embed_tweet("1302774966199504896")`
+---
+
 # What is a website?
 
 * static: HTML, CSS, JS
