@@ -16,7 +16,7 @@ If you start using distill for your website...
 
 * [Watch development on GitHub](https://help.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository)?
 
-* Subscribe to the [issues](https://github.com/rstudio/distill/issues) that are interesting to you: [search](https://github.com/rstudio/distill/issues/9), [ORCID](https://github.com/rstudio/distill/issues/21), etc.?
+* Subscribe to the [issues](https://github.com/rstudio/distill/issues) that are interesting to you.
 
 ## Websites for inspiration :sparkles:
 
@@ -39,6 +39,8 @@ If you start using distill for your website...
 ## A warning about customization :warning:
 
 > A word of warning though: Distill (the original library upon which the R package is based) is strongly opinionated about CSS and sometimes it's tricky or impossible to change things. Just to say your mileage may vary and if there is something you can't quite get right there is not likely much we can do about it -- *JJ Allaire [in a GitHub issue](https://github.com/rstudio/distill/issues/100#issuecomment-508075573)*.
+
+However, follow work in the issue ["Improve ability to theme distill sites"](https://github.com/rstudio/distill/issues/178)
 
 {{% notice tip %}}
 If you liked distill's looks but would like further customization, and if you like Hugo that we'll present in the next section, check out [this Distill theme for Hugo](https://github.com/activatedgeek/distillpub).
