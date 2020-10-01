@@ -22,6 +22,7 @@ If you start using distill for your website...
 
 | Website | Source |
 |---|---|
+|[Teaching in Production](https://rstudio-education.github.io/teaching-in-production/)|[<i class='fab fa-fw fa-github'>](https://github.com/rstudio-education/teaching-in-production)|
 |[Scholarly Communication Analytics](https://subugoe.github.io/scholcomm_analytics/)| [<i class='fab fa-fw fa-github'>](https://github.com/subugoe/scholcomm_analytics) |
 | [RStudio AI Blog](https://blogs.rstudio.com/ai/) | [<i class='fab fa-fw fa-github'>](https://github.com/rstudio/ai-blog) |
 | [The Mockup Blog by Tom Mock](https://themockup.blog/) | [<i class='fab fa-fw fa-github'>](https://github.com/jthomasmock/radix_themockup) |
