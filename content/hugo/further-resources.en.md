@@ -32,7 +32,7 @@ Collaborative website: even Hugo users might not know your website structure!
 
 ## Where to get help? :wave:
 
-* [RStudio community forum](https://community.rstudio.com/c/R-Markdown/10) (RMarkdown category)
+* [RStudio community forum](https://community.rstudio.com/c/R-Markdown/10) (R Markdown category)
 
 * [hugodown issue tracker](https://github.com/r-lib/hugodown/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
@@ -64,7 +64,8 @@ There's a [Python CLI to import your publications](https://github.com/sourcethem
 
 ## Another R package: blogdown :package:
 
-[blogdown](https://bookdown.org/yihui/blogdown/) is an alternative to hugodown. [hugodown vs blogdown](https://hugodown.r-lib.org/#compared-to-blogdown)
+[blogdown](https://bookdown.org/yihui/blogdown/) is an alternative to hugodown. [hugodown vs blogdown](https://hugodown.r-lib.org/#compared-to-blogdown).
+[A wishlist for the next version of blogdown](https://github.com/rstudio/blogdown/issues/476).
 
 ## Hugo and CMS  :computer:
 
