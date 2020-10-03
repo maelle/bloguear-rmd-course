@@ -16,9 +16,9 @@ output: hugodown::md_document
 
 - `hugodown::hugo_start(render_to_disk = TRUE)`, open localhost in the browser.
 
-- Change site title and [theme](https://sourcethemes.com/academic/themes/) in config/_default/params.toml. Yes a theme for a theme!
+- Change site title and [theme](https://wowchemy.com/docs/customization/) in config/_default/params.toml. Yes a theme for a theme!
 
-- Mention [academic docs](https://sourcethemes.com/academic/), all the things one can change.
+- Mention [academic docs](https://wowchemy.com/docs/), all the things one can change.
 
 - `hugodown::use_post("post/new-rmd-post")`, knit, see post.
 

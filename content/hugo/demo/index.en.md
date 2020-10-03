@@ -4,7 +4,7 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: efd1fe50145291c0
+rmd_hash: 90c6f2b4fb34d2a9
 
 ---
 
@@ -18,9 +18,9 @@ rmd_hash: efd1fe50145291c0
 
 -   [`hugodown::hugo_start(render_to_disk = TRUE)`](https://rdrr.io/pkg/hugodown/man/hugo_start.html), open localhost in the browser.
 
--   Change site title and [theme](https://sourcethemes.com/academic/themes/) in config/\_default/params.toml. Yes a theme for a theme!
+-   Change site title and [theme](https://wowchemy.com/docs/customization/) in config/\_default/params.toml. Yes a theme for a theme!
 
--   Mention [academic docs](https://sourcethemes.com/academic/), all the things one can change.
+-   Mention [academic docs](https://wowchemy.com/docs/), all the things one can change.
 
 -   [`hugodown::use_post("post/new-rmd-post")`](https://rdrr.io/pkg/hugodown/man/use_post.html), knit, see post.
 
