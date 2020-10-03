@@ -7,23 +7,23 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: 81064851377395ba
+rmd_hash: 02f7ede99ec5688d
 
 ---
 
-Hugo and hugodown
-=================
+Hugo y hugodown
+===============
 
-A powerful static generator, a handy WIP package
+Un generador de sitios muy fuerte, un paquete experimental muy practico.
 
 ------------------------------------------------------------------------
 
 [Hugo](https://gohugo.io/)
 ==========================
 
-Powerful and fast static generator
+Generador de sitios muy rapido y que permite hacer muchas cosas.
 
-Only an .exe to install :tada:
+So se tiene que instalar un punto exe :tada:
 
 ------------------------------------------------------------------------
 
@@ -32,18 +32,18 @@ Only an .exe to install :tada:
 
 [R :package:](https://hugodown.r-lib.org/)
 
--   An R Markdown output format
+-   Un formate de output de R Markdown
 
--   Handy helpers
+-   Funcionas para ayudar el flujo de trabajo (para instalar Hugo, incrustar tuits...)
 
-Experimental but the best bet in my opinion.
+Experimental però por el momento sigue siendo lo que recomano. A ver qué pasa con blogdown, puede cambiar!
 
 ------------------------------------------------------------------------
 
-From Rmd to website
-===================
+Desde Rmd hasta un sitio
+========================
 
-Under the hood
+Entre bastidores
 
 {{<mermaid align="left">}}
 graph LR;
@@ -51,14 +51,14 @@ graph LR;
     B --> |"Hugo (Goldmark, Chroma)"| C[HTML]
 {{< /mermaid >}}
 
-<small>Inspired by [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)</small>
+<small>Inspirado por [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)</small>
 
 ------------------------------------------------------------------------
 
-From Rmd to website
-===================
+Desde Rmd hasta un sitio
+========================
 
-What you do
+Lo que hacen Ustedes
 
 {{<mermaid align="left">}}
 graph LR;
@@ -68,22 +68,23 @@ graph LR;
 
 ------------------------------------------------------------------------
 
-No syntax highlighting :expressionless:
+Sin resaltado de sintaxis :expressionless:
 
 <pre><code>ggplot2::ggplot()
 </code></pre>
 
-Chroma syntax highlighting :+1:
+Resaltado de sintaxis por Chroma :+1:
 
 ```r
 ggplot2::ggplot()
 ```
 
-downlit syntax highlighting :smiley:
+Resaltado de sintaxis con downlit :smiley:
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span class='k'>ggplot2</span>::<span class='nf'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>()</code></pre>
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>ggplot2</span><span class='nf'>::</span><span class='nf'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='o'>(</span><span class='o'>)</span>
+</code></pre>
 
 </div>
 
@@ -91,40 +92,29 @@ downlit syntax highlighting :smiley:
 
 {{< figure src="/images/highlight.jpg" alt="A meme to explain why downlit is great" height="550" >}}
 
-Inspired by [Mara Averick](https://twitter.com/dataandme/status/1255510799273132032)
+Inspirado por [Mara Averick](https://twitter.com/dataandme/status/1255510799273132032)
 
 ------------------------------------------------------------------------
 
-hugodown syntax highlighting
-============================
+Resaltado de sintaxis en hugodown
+=================================
 
--   downlit for R :tada:
+-   downlit para R :tada:
 
--   Chroma for other languages :sparkles:
-
-------------------------------------------------------------------------
-
-:mountain_cableway: Time for a demo!
-
-[Notes on the course website](/hugo/demo/)
+-   Chroma para otros lenguajes (YAML, Python...) :sparkles:
 
 ------------------------------------------------------------------------
 
-Scientific Rmd Blog Checklist
+:mountain_cableway: ¡Ahora lo probamos!
 
--   [x] R Markdown
--   [x] Syntax highlighting
--   [x] Modern
--   [x] .bib
--   \[?\] Citation for posts (possible but custom layout)
--   [x] Equations
+[Notas en el sitio del curso](/hugo/demo/)
 
 ------------------------------------------------------------------------
 
-Sustainability
-==============
+Viabilidad
+==========
 
-Created by:
+Creado por:
 
 <div class="highlight">
 
@@ -132,37 +122,37 @@ Hadley Wickham \[aut, cre\]
 
 </div>
 
-Used for [tidyverse.org](https://tidyverse.org), in particular.
+Usado para [tidyverse.org](https://tidyverse.org).
 
-[Active development](https://github.com/r-lib/hugodown/).
+[Desarrollo activo](https://github.com/r-lib/hugodown/).
 
 ------------------------------------------------------------------------
 
-Limitations?
+Limitationes?
+=============
+
+-   hugodown es experimental. Por el momento solo hay un tema facil de utilizar (un tema genial) però a) pronto habrá un secundo b) hay documentación para utilizar hugodown con otros temas.
+
+-   Hugo cambia mucho (però hugodown protege su sitio de este riesgo dado que clava una versión de Hugo al sitio)
+
+------------------------------------------------------------------------
+
+Más recursos
 ============
 
--   hugodown is a WIP package. One easy to use theme only at the moment, but a great one!
-
--   Hugo changes a lot (but hugodown helps protect your projects from that)
+[Lista en el sitio del curso](/hugo/further-resources/) :ledger:
 
 ------------------------------------------------------------------------
 
-Further resources
-=================
+Preguntas, comentarios?
+=======================
 
-[Listed on the course website](/hugo/further-resources/) :ledger:
-
-------------------------------------------------------------------------
-
-Questions, comments?
-====================
-
-Write them in the pad!
+Chat de Zoom, issues en el repositorio del sitio del curso.
 
 ------------------------------------------------------------------------
 
-Time for a break :tea:
-======================
+¡Descanso! :tea:
+================
 
 <!--html_preserve-->
 
