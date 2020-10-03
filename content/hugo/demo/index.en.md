@@ -4,15 +4,13 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: 58f36d4bdc354576
+rmd_hash: efd1fe50145291c0
 
 ---
 
 -   install the remotes package, `install.packages("remotes)`
 
 -   install the hugodown package, [`remotes::install_github("r-lib/hugodown")`](https://remotes.r-lib.org/reference/install_github.html)
-
--   [`hugodown::hugo_install()`](https://rdrr.io/pkg/hugodown/man/hugo_install.html)
 
 -   [`hugodown::hugo_install('0.66.0')`](https://rdrr.io/pkg/hugodown/man/hugo_install.html)
 

@@ -10,8 +10,6 @@ output: hugodown::md_document
 
 - install the hugodown package, `remotes::install_github("r-lib/hugodown")`
 
-- `hugodown::hugo_install()`
-
 - `hugodown::hugo_install('0.66.0')`
 
 - `hugodown::create_site_academic()`. Be happy to see everything happening automatically :sparkles:
