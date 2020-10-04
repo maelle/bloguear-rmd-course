@@ -7,7 +7,7 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: 02f7ede99ec5688d
+rmd_hash: 84aa84291013414e
 
 ---
 
@@ -124,7 +124,7 @@ Hadley Wickham \[aut, cre\]
 
 Usado para [tidyverse.org](https://tidyverse.org).
 
-[Desarrollo activo](https://github.com/r-lib/hugodown/).
+[Desarrollo activo](https://github.com/r-lib/hugodown/) (però quedará simple).
 
 ------------------------------------------------------------------------
 
@@ -134,6 +134,15 @@ Limitationes?
 -   hugodown es experimental. Por el momento solo hay un tema facil de utilizar (un tema genial) però a) pronto habrá un secundo b) hay documentación para utilizar hugodown con otros temas.
 
 -   Hugo cambia mucho (però hugodown protege su sitio de este riesgo dado que clava una versión de Hugo al sitio)
+
+------------------------------------------------------------------------
+
+¿Y blogdown?
+============
+
+De hecho hay muchos cambios en blogdown estos dias que le darán fuerzas similares a hugodown... ¡a ver!
+
+Cambio posible, y conceptos similares.
 
 ------------------------------------------------------------------------
 

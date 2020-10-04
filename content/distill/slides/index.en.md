@@ -7,7 +7,7 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: f958a4a6947e9d10
+rmd_hash: 9e15832d60cc9db2
 
 ---
 
@@ -16,42 +16,42 @@ Distill
 
 ------------------------------------------------------------------------
 
-[Distill](rstudio.github.io/distill/) is both a framework and an R package.
+[Distill](rstudio.github.io/distill/) es una plantilla de sitio (HTML, CSS, JSS) y también un paquete R que permite utilizar esta plantilla.
 
-> Distill for R Markdown is a web publishing format optimized for scientific and technical communication.
-
-------------------------------------------------------------------------
-
--   Output format for single documents
-
--   Websites
-
--   Blogs, like websites but with blog posts than aren't re-rendered automatically.
+> Distill para R Markdown es un formato para publicar en el web, optimizado para comunicación tecnica y cientifica.
 
 ------------------------------------------------------------------------
 
-Helpers like [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html)
+-   Formato de output para documentos R Markdown
+
+-   Sitios web
+
+-   Blogs, como sitios web però con articulos de blog que no estan tejidos cada vez que el sitio esta construido.
 
 ------------------------------------------------------------------------
 
-From Rmd to website
-===================
+Funciones cómo [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html)
 
-Under the hood
+------------------------------------------------------------------------
+
+Desde Rmd hasta un sitio
+========================
+
+Entre bastidores
 
 {{<mermaid align="left">}}
 graph LR;
     A[Rmd] -->|"R ( distill :package:) & Pandoc & Distill framework" | B[HTML]
 {{< /mermaid >}}
 
-<small>Inspired by [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)</small>
+<small>Inspirado por [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)</small>
 
 ------------------------------------------------------------------------
 
-From Rmd to website
-===================
+Desde Rmd hasta un sitio
+========================
 
-What you do
+Lo que hacen Ustedes
 
 {{<mermaid align="left">}}
 graph LR;
@@ -60,27 +60,16 @@ graph LR;
 
 ------------------------------------------------------------------------
 
-:train: Time for a demo!
+:train: ¡Ahora lo probamos!
 
-[Notes on the course website](/distill/demo/)
-
-------------------------------------------------------------------------
-
-Scientific Rmd Blog Checklist
-
--   [x] R Markdown
--   [x] Syntax highlighting (for all knitr-supported languages)
--   [x] Modern
--   [x] .bib
--   [x] Citation for posts
--   [x] Equations
+[Notas en el sitio del curso](/distill/demo/)
 
 ------------------------------------------------------------------------
 
-Sustainability
-==============
+Viabilidad
+==========
 
-Created by:
+Creado por:
 
 <div class="highlight">
 
@@ -88,39 +77,41 @@ JJ Allaire \[aut, cre\], Rich Iannone \[aut\], Yihui Xie \[aut\]
 
 </div>
 
-Used for [RStudio AI blog](https://blogs.rstudio.com/ai/), in particular.
+y también Alison Presmanes Hill.
 
-Active development.
+Usado para [RStudio AI blog](https://blogs.rstudio.com/ai/).
+
+Desarrollo activo.
 
 ------------------------------------------------------------------------
 
-Limitations?
+Limitaciones?
+=============
+
+-   Contenido en HTML (no sé cómo uno podria cambiar de generador de sitios sin tejer de nuevo)
+
+-   No se puede personalizar muchisimo però tal vez es mejor asi :grin:
+
+-   Lo qué no habia la primera vez que di el curso en julio, ahora lo hay! :tada:
+
+------------------------------------------------------------------------
+
+Más recursos
 ============
 
--   Content stored as html (harder to migrate?)
-
--   Limited possibilities for customization (blessing in disguise?)
-
--   Some open issues (ORCID support, RSS feed tweaking) but active development
+[Lista en el sitio del curso](/distill/further-resources/) :books:
 
 ------------------------------------------------------------------------
 
-Further resources
-=================
+Preguntas, comentarios?
+=======================
 
-[Listed on the course website](/distill/further-resources/) :books:
-
-------------------------------------------------------------------------
-
-Questions, comments?
-====================
-
-Write them in the pad!
+Chat de Zoom, issues en el repositorio del sitio del curso.
 
 ------------------------------------------------------------------------
 
-Time for a break :coffee:
-=========================
+¡Descanso! :coffee:
+===================
 
 <!--html_preserve-->
 
