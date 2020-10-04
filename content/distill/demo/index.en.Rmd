@@ -8,7 +8,9 @@ output: hugodown::md_document
 
 - show the RStudio IDE, ask whether anyone is unfamiliar with it.
 
-- install the distill package, `install.packages("distill")`
+- install the remotes package, `install.packages("remotes)`
+
+- install the distill package, `remotes::install_github("rstudio/distill")`
 
 - create blog (from RStudio Create New Project, not `distill::create_blog()`).
 
@@ -44,7 +46,7 @@ output: hugodown::md_document
 
 - put website online via Netlify drag and drop.
 
-- add base_url to site config, show citations metadata is added.
+- add `base_url` to site config, show citations metadata is added.
 
 - Netlify drag and drop.
 

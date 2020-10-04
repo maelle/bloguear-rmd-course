@@ -4,13 +4,15 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: 56c6444412ac02ba
+rmd_hash: 64715ebba1ade000
 
 ---
 
 -   show the RStudio IDE, ask whether anyone is unfamiliar with it.
 
--   install the distill package, [`install.packages("distill")`](https://rdrr.io/r/utils/install.packages.html)
+-   install the remotes package, `install.packages("remotes)`
+
+-   install the distill package, [`remotes::install_github("rstudio/distill")`](https://remotes.r-lib.org/reference/install_github.html)
 
 -   create blog (from RStudio Create New Project, not [`distill::create_blog()`](https://rdrr.io/pkg/distill/man/create_website.html)).
 
@@ -46,7 +48,7 @@ rmd_hash: 56c6444412ac02ba
 
 -   put website online via Netlify drag and drop.
 
--   add base\_url to site config, show citations metadata is added.
+-   add `base_url` to site config, show citations metadata is added.
 
 -   Netlify drag and drop.
 
