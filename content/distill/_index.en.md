@@ -4,17 +4,15 @@ weight: 3
 chapter: true
 slides: true
 output: hugodown::md_document
-rmd_hash: eac431401cb5fb0a
+rmd_hash: 776c9bf832e70f34
 
 ---
 
-[Distill](rstudio.github.io/distill/) is both a framework and an R package.
+[Distill](rstudio.github.io/distill/) es una plantilla de sitio (HTML, CSS, JSS) y también un paquete R que permite utilizar esta plantilla.
 
-Its docs state:
+> Distill para R Markdown es un formato para publicar en el web, optimizado para comunicación tecnica y cientifica.
 
-> Distill for R Markdown is a web publishing format optimized for scientific and technical communication.
+Tiene un formato de output R Markdown, y funciones muy practicas, por ejemplo [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html).
 
-It has both an R Markdown output format, and handy functions such as [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html).
-
-Let's explore it!
+¡Lo vamos a explorar!
 
