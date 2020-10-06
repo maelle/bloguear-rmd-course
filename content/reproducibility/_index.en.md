@@ -1,17 +1,19 @@
 ---
-title: Reproducibility
+title: Reproducibilidad
 weight: 4
 chapter: true
 slides: true
 output: hugodown::md_document
-rmd_hash: f388f66391e3a783
+rmd_hash: f13756e75228509e
 
 ---
 
-Reproducibility
-===============
+Reproducibilidad
+================
 
-We're all about transparency and reproducibility but are your blog posts supposed to be perfectly encapsulated reproducible analyses?
+Transparencia y reproducibilidad son importantes però qué exigencia tienen para sus articulos de blog?
 
-Spoiler: probably not; but there are less ambitious steps that are important. Indicate session info and data origin, backup, take notes.
+Probabilmente no la misma que para un articulo cientifico.
+
+Mostrar información de sesión (paquetes etc.), origen de los datos, hagan salvaguardias, tomen notas.
 

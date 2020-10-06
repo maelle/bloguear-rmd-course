@@ -6,77 +6,81 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: d72ca81ec9ad4774
+rmd_hash: 73d7aaea0b8b25f4
 
 ---
 
-Reproducibility?
-================
+Reproducibilidad?
+=================
 
-Should your blog posts still be "knittable?"
-
-------------------------------------------------------------------------
-
-Reproducibility?
-================
-
--   Be able to update your post short/medium term
-
--   Same for readers except for private data
-
-{{% fragment %}} </br> But blog posts will **age**, which is fine, a blog is not a current docs website. {{% /fragment %}}
+¿Tendrian que poder tejer sus entradas de blog de nuevo para siempre?
 
 ------------------------------------------------------------------------
 
-All posts
-=========
+Reproducibilidad?
+=================
 
-Need to re-knit posts for migration, tool updates?
+-   Ser capaz de actualizar sus entradas a corto plazo
 
-{{% fragment %}} Or use the R Markdown output after a point (.md), potentially with YAML/other tweaks.
+-   Para personas externas, poder tejer entradas (si no hay datos privados)
 
-When I migrated from Jekyll to Hugo I used the .md, not .Rmd. {{% /fragment %}}
-
-------------------------------------------------------------------------
-
-Evergreen posts
-===============
-
-If you want a tutorial to be evergreen you'll need to ensure it works with the latest packages etc.
-
-But are tutorials like package vignettes?
+{{% fragment %}} </br> Però sus entradas van a **envejecer**, su sitio no tiene que sera una documentación siempre actualizada. {{% /fragment %}}
 
 ------------------------------------------------------------------------
 
-Reproducible analyses
-=====================
+Todas las entradas
+==================
 
-How to archive your computing environment?
+Tejer de nuevo para cambiar o actualizar la eina?
 
-It might be "easier" to archive the analysis elsewhere (tools for scientific articles) and link to that from the blog post.
+{{% fragment %}} Tal vez se pueden utilizar los .md, con algunas modificaciones del YAML.
 
-------------------------------------------------------------------------
-
-Transparency
-============
-
-For you, for readers.
-
--   Add session info to bottom of posts
-
--   Mention data origin (URL to data?)
+Cuando movi mi blog de Jekyll a Hugo, para entradas viejas, utilizé los .md, no los .Rmd. {{% /fragment %}}
 
 ------------------------------------------------------------------------
 
-Common sense
-============
+Entradas perennes
+=================
 
--   Backup
+Si quieren que un tutorial queda perenne tendrán que asegurar que siga funcionando con las ultimas versiones de los paquetes.
 
--   Make note of anything that might be tricky (dev version of a package)
+Depiende de lo que quieren hacer con su sitio.
 
 ------------------------------------------------------------------------
 
-What's your own take?
-=====================
+{{< tweet 1311959289796452352 >}}
+
+------------------------------------------------------------------------
+
+Analisis reproducible?
+======================
+
+¿Cómo archivar su entorno computacional?
+
+Tal vez seria más "facil" archivar el analisis en otra parte (con einas para articulos cientificos) y poner un enlace desde la entrada de blog.
+
+------------------------------------------------------------------------
+
+Transparencia
+=============
+
+Para Ustedes y lectores.
+
+-   Añadir información de sesión al bajo de las entradas.
+
+-   Explicar donde salen los datos.
+
+------------------------------------------------------------------------
+
+Sentido común
+=============
+
+-   ¡Salvaguardias!
+
+-   Esbriban lo que puede ser raro (por ejemplo, "utilizé la versión dev del commit xxxyyyzzz del paquete X")
+
+------------------------------------------------------------------------
+
+¿Qué piensan?
+=============
 
