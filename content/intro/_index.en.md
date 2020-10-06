@@ -6,6 +6,6 @@ slides: true
 menuTitle: Intro
 ---
 
-What do you need to know before this course?
+¿Qué tienen que saber antes del curso?
 
-Why would you create a blog?
+¿Porqué a blog?
