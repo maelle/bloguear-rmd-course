@@ -9,4 +9,4 @@ weight: 5
 
 * If you use GitLab, not GitHub, you can follow [Heidi Seibold's instructions _"Setup Git RStudio GitLab"_](https://gitlab.com/HeidiSeibold/setup-git-rstudio-gitlab). There is no helper similar to `usethis::use_github()` to my knowledge.
 
-* You should be able to follow the course and manage a blog without any git knowledge. Now for later, if you feel curious about version control, I'd recommend checking out [happygitwithr.com](https://happygitwithr.com/) and [Suzan Baert's blog post about git](https://suzan.rbind.io/2018/03/reflections-4-months-of-github/).
+* You should be able to follow the course and manage a blog without any git knowledge. Now for later, if you feel curious about version control, I'd recommend checking out [happygitwithr.com](https://happygitwithr.com/) by Jenny Bryan, the STAT 545 TAs, Jim Hester; [Suzan Baert's blog post about git](https://suzan.rbind.io/2018/03/reflections-4-months-of-github/) and ["Excuse me, do you have a moment to talk about version control?"](https://peerj.com/preprints/3159/) by Jenny Bryan.
