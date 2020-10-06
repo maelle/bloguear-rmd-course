@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: f9348c09df58c4a7
+rmd_hash: e7a2aad0f29de62a
 
 ---
 
@@ -69,35 +69,35 @@ Creo que bloguear me dió la oportunidad dar este curso però bloguear no es un 
 
 ------------------------------------------------------------------------
 
-What is a website?
-==================
-
--   static: HTML, CSS, JS
-
--   non static: more machinery on the server side
-
-Online server somewhere.
-
-------------------------------------------------------------------------
-
-Why Rmd for blogging?
+¿Qué es un sitio web?
 =====================
 
--   {{% fragment %}}Data analysis with R{{% /fragment %}}
--   {{% fragment %}}Blogging about R{{% /fragment %}}
--   {{% fragment %}}R as an utility tool e.g. to generate text from structured data{{% /fragment %}}
--   {{% fragment %}}knitr supports other languages...{{% /fragment %}}
+-   estatico: HTML, CSS, JS
+
+-   non estatico: pasa más cosas por parte del servidor
+
+Servidor(es) en línea en algun lugar
 
 ------------------------------------------------------------------------
 
-WHAT is a scientific Rmd blog?
-==============================
+¿Porqué Rmd para bloguear?
+==========================
+
+-   {{% fragment %}}Análisis de datos con R{{% /fragment %}}
+-   {{% fragment %}}Bloguear sobre R{{% /fragment %}}
+-   {{% fragment %}}R como una eina por ejemplo para generar texto con datos estructurados{{% /fragment %}}
+-   {{% fragment %}}knitr permite utilizar otros lenguajes...{{% /fragment %}}
 
 ------------------------------------------------------------------------
 
-IMHO :smile_cat:
+¿QUÉ es un blog con Rmd?
+========================
 
-I'll list criteria so we have something to compare our adventures to.
+------------------------------------------------------------------------
+
+Esto es mi opinion :smile_cat:
+
+Hoy presentaré 2 einas però tengo criterios generales.
 
 ------------------------------------------------------------------------
 
@@ -106,60 +106,58 @@ Tech part
 
 <!--html_preserve-->
 
--   {{% fragment %}}Easy way to update from Rmd without too much copy-pasting{{% /fragment %}}
+-   {{% fragment %}}Manera de actualizar el sitio desde Rmd sin copiar y pegar{{% /fragment %}}
 
--   {{% fragment %}}Fits into your existing workflow or uses things you want to learn and invest time in{{% /fragment %}}
+-   {{% fragment %}}Corresponde a su flujo de trabajo o a cosas que quieren aprender{{% /fragment %}}
 
--   {{% fragment %}}Code, syntax highlighting{{% /fragment %}}
+-   {{% fragment %}}Codigo, resaltado de sintaxis{{% /fragment %}}
 
--   {{% fragment %}}Modern tooling (html5? mobile friendly?){{% /fragment %}}
+-   {{% fragment %}}Moderno (html5? versión móvil?){{% /fragment %}}
 
 <!--/html_preserve-->
 ---------------------
 
-Science part
-============
+Ciencia/technica
+================
 
--   {{% fragment %}}References from a .bib file{{% /fragment %}}
+-   {{% fragment %}}Poder añadir referencias con un .bib{{% /fragment %}}
 
--   {{% fragment %}}Easy way to cite posts?{{% /fragment %}}
+-   {{% fragment %}}Cómo se pueden citar los articulos de blog?{{% /fragment %}}
 
--   {{% fragment %}}Equations {{% /fragment %}}
-
--   {{% fragment %}}Content. Blog about science, or stuff relevant to science&co (e.g. comparisons of way to fit and present linear models in R).{{% /fragment %}}
+-   {{% fragment %}}Ecuaciones{{% /fragment %}}
 
 ------------------------------------------------------------------------
 
-Human part
-==========
+Aspectos humanos
+================
 
--   {{% fragment %}}Accessible. Alt text, contrast. Don't add gate-keeping to science.{{% /fragment %}}
+-   {{% fragment %}}Acesible. Texto alternativo para imagenes, contraste alto.{{% /fragment %}}
 
--   {{% fragment %}}You OWN it. Content, URL (no commercial service, no employer).{{% /fragment %}}
+-   {{% fragment %}}Le pertenece a Ustedes. Contenido, si es posible URL.{{% /fragment %}}
 
--   {{% fragment %}}Allows for interactions (social media? commenting?){{% /fragment %}}
+-   {{% fragment %}} Interacciones (¡Redes sociales? ¿Comentarios?){{% /fragment %}}
 
--   {{% fragment %}}Costs a few dollars a month at most.{{% /fragment %}}
+-   {{% fragment %}}No les cuesta demasiado.{{% /fragment %}}
 
 ------------------------------------------------------------------------
 
-Let's go
+Programa
 ========
 
 -   {{% fragment %}}distill{{% /fragment %}}
 
 -   {{% fragment %}}Hugo&hugodown{{% /fragment %}}
 
--   {{% fragment %}}Reproducibility{{% /fragment %}}
+-   {{% fragment %}}Reproducibilidad{{% /fragment %}}
 
--   {{% fragment %}}Promotion{{% /fragment %}}
+-   {{% fragment %}}Promoción{{% /fragment %}}
 
--   {{% fragment %}}Debrief{{% /fragment %}}
+-   {{% fragment %}}Conclusión{{% /fragment %}}
 
 ------------------------------------------------------------------------
 
-We'll start with a tour of the course website
-=============================================
+Les voy a mostrar el sitio del curso
+====================================
 
-<a href="https://tiny.cc/rmd-blog" class="uri">https://tiny.cc/rmd-blog</a>
+<a href="https://tiny.cc/bloguear" class="uri">https://tiny.cc/bloguear</a>
 
