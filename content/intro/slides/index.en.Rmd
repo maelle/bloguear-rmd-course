@@ -1,20 +1,20 @@
 ---
 outputs:
 - Reveal
-title: Scientific R Markdown blog?
+title: Bloguear con R Markdown
 hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
 ---
 
-# Scientific blogging with R Markdown
+# Bloguear con R Markdown
 
-:wave: Welcome!
+:wave: ¡Hola!
 
 ---
 
-I'm Maëlle, I like R, blogging and science.
+Soy Maëlle (Ma-El)! Me gustan R, bloguear y la ciencia.
 
 {{% fragment %}}
 
@@ -25,35 +25,43 @@ I'm Maëlle, I like R, blogging and science.
 
 ---
 
-# Why blog?
+# ¿Porqué bloguear?
 
 ---
 
-* Notes for future you
+* Notas para Ustedes en el futuro
 
-* Passion for sharing?
+* ¿Les gustan compartir?
 
-* Opportunities
-
----
-
-Teaching this course is an opportunity I got from blogging but blogging is not a pyramid scheme :wink:
+* Oportunidades
 
 ---
 
-# Why create blog?
+`r hugodown::embed_tweet("1313179237487124486")`
 
-What if I don't really want to blog regularly?
+---
+
+Creo que bloguear me dió la oportunidad dar este curso però bloguear no es un esquema de pirámide!
+
+---
+
+# ¿Porqué crear un sitio web?
+
+¿Y si no quiero bloguear a menudo?
 
 <!--html_preserve-->
 
-- {{% fragment %}}Have a platform to share stuff when you need to.{{% /fragment %}}
-- {{% fragment %}}Portfolio. In particular, imagine someone recommending you for a thing.{{% /fragment %}}
+- {{% fragment %}}Tener una plataforma para compartir cosas cuando lo necessitan.{{% /fragment %}}
+- {{% fragment %}}Portfolio. En particular, imaginense a alguién recomonando su nombre para algo.{{% /fragment %}}
 
 <!--/html_preserve-->
 ---
 
 `r hugodown::embed_tweet("1302774966199504896")`
+---
+
+`r hugodown::embed_tweet("1311242386899689472")`
+
 ---
 
 # What is a website?

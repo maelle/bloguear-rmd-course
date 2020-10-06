@@ -1,23 +1,23 @@
 ---
 outputs:
 - Reveal
-title: Scientific R Markdown blog?
+title: Bloguear con R Markdown
 hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 2e988de5d1e6b9cb
+rmd_hash: f9348c09df58c4a7
 
 ---
 
-Scientific blogging with R Markdown
-===================================
+Bloguear con R Markdown
+=======================
 
-:wave: Welcome!
+:wave: ¡Hola!
 
 ------------------------------------------------------------------------
 
-I'm Maëlle, I like R, blogging and science.
+Soy Maëlle (Ma-El)! Me gustan R, bloguear y la ciencia.
 
 {{% fragment %}}
 
@@ -27,37 +27,45 @@ I'm Maëlle, I like R, blogging and science.
 
 ------------------------------------------------------------------------
 
-Why blog?
-=========
+¿Porqué bloguear?
+=================
 
 ------------------------------------------------------------------------
 
--   Notes for future you
+-   Notas para Ustedes en el futuro
 
--   Passion for sharing?
+-   ¿Les gustan compartir?
 
--   Opportunities
-
-------------------------------------------------------------------------
-
-Teaching this course is an opportunity I got from blogging but blogging is not a pyramid scheme :wink:
+-   Oportunidades
 
 ------------------------------------------------------------------------
 
-Why create blog?
-================
+{{< tweet 1313179237487124486 >}}
 
-What if I don't really want to blog regularly?
+------------------------------------------------------------------------
+
+Creo que bloguear me dió la oportunidad dar este curso però bloguear no es un esquema de pirámide!
+
+------------------------------------------------------------------------
+
+¿Porqué crear un sitio web?
+===========================
+
+¿Y si no quiero bloguear a menudo?
 
 <!--html_preserve-->
 
--   {{% fragment %}}Have a platform to share stuff when you need to.{{% /fragment %}}
--   {{% fragment %}}Portfolio. In particular, imagine someone recommending you for a thing.{{% /fragment %}}
+-   {{% fragment %}}Tener una plataforma para compartir cosas cuando lo necessitan.{{% /fragment %}}
+-   {{% fragment %}}Portfolio. En particular, imaginense a alguién recomonando su nombre para algo.{{% /fragment %}}
 
 <!--/html_preserve-->
 ---------------------
 
 {{< tweet 1302774966199504896 >}}
+
+------------------------------------------------------------------------
+
+{{< tweet 1311242386899689472 >}}
 
 ------------------------------------------------------------------------
 
