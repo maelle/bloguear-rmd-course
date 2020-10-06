@@ -1,28 +1,30 @@
 ---
 outputs:
 - Reveal
-title: Conclusion
+title: Conclusión
 hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
 ---
 
-# Scientific blogging with R Markdown
+# Bloguear con R Markdown
 
-:sob: Nearly time to say goodbye!
-
----
-
-* distill: perfect, not flexible
-
-* Hugo&hugodown: very flexible (too flexible?), changes fast, experimental R package
-
-* others?
+:sob: ¡Quasi llega la hora de decirse adiós!
 
 ---
 
-# What to choose
+* distill: perfecto, poco flexibilidad
+
+* Hugo&hugodown: muy (¿demasiado?) flexibilidad, cambios frequentes (però hugodown clava una versión al sitio), hugodown es experimental
+
+* Hugo & blogdown [wishlist de Alison Presmanes Hill](https://github.com/rstudio/blogdown/issues/476)
+
+---
+
+# ¿Qué elegir?
+
+Si no quieren una estructura de sitio muy especial,
 
 * distill
 
@@ -30,60 +32,56 @@ output: hugodown::md_document
 
 ---
 
-# What to choose
+# ¿Qué elegir?
 
-Start by playing! Don't commit right away.
+¿No hay que decidir immediatamente, jueguen un poco con las einas?
 
-Does any of you want to say what they'd choose and why?
-
----
-
-# True for all
-
-* Read the docs and follow development! :eyes:
-
-* Backup! :warning:
+¿Hay alguién que quiere decir lo que eligió/eligiria?
 
 ---
 
-# Change your mind?
+# Con todas las einas...
 
-* Migration tools
+* Lean la documentacion y siguan el desarrollo! :eyes:
 
-* `yaml`, `commonmark` packages, etc.
-
-* Redirects! URLs are important. 404 page.
+* Salvaguarden! :warning:
 
 ---
 
-# Have fun!
+# Cambiar de einas?
 
-If you're worried about blogging, find a blogging buddy to read your drafts?
+* Buscar einas de migración (por ejemplo "from WordPress to Hugo")
 
-Make efforts but don't be perfectionist.
+* Paquetes `yaml`, `commonmark`, etc.
 
----
-
-# Setup is not fun
-
-* With R helper packages, setup is smoother
-
-* But in general setup = learning a new thing, hard but then you get used to it!
+* Redirects! pagina 404.
 
 ---
 
-# Regular blogging?
+# ¡diviértanse!
 
-No you don't have to unless you call your blog "the daily blog" or so. :wink:
+Si tienen miedo publicar entradas, busca un amig@ de R para leer sus borradores.
 
-Only write if you enjoy it! Your blog can be a portfolio/news board only.
+Haganlo bien però no sean perfectionistas.
 
 ---
 
-# Tell me
+# Setup no es divertido
 
-* Questions this afternoon  :raising_hand:
+* Con paquetes R como distill y hugodown, el setup puede ser más facil.
 
-* Issues in the [website repo](https://github.com/maelle/rmd-blogging-course/issues) for questions  :raising_hand:
+* Però en general instalar y utilizar cosas nuevas es dificil... por suerte nos acostrumbamos!
 
-* [Tweets](https://twitter.com/ma_salmon)/emails to show me your websites. :star:
+---
+
+# Bloguear a menudo
+
+No hay que publicar cada dia. No llamen a su blog "Entradas de R cotidianas" o algo asi. :wink:
+
+---
+
+# Después de mi charla
+
+* Preguntas en el [repositorio del sitio](https://github.com/maelle/rmd-blogging-course/issues)  :raising_hand:
+
+* [Tuits](https://twitter.com/ma_salmon) o correos electronicos para mostrarme su sitio. :star:

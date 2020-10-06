@@ -1,32 +1,34 @@
 ---
 outputs:
 - Reveal
-title: Conclusion
+title: Conclusión
 hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: d157ade5f2b2a540
+rmd_hash: b7708d0b3368a014
 
 ---
 
-Scientific blogging with R Markdown
-===================================
+Bloguear con R Markdown
+=======================
 
-:sob: Nearly time to say goodbye!
-
-------------------------------------------------------------------------
-
--   distill: perfect, not flexible
-
--   Hugo&hugodown: very flexible (too flexible?), changes fast, experimental R package
-
--   others?
+:sob: ¡Quasi llega la hora de decirse adiós!
 
 ------------------------------------------------------------------------
 
-What to choose
-==============
+-   distill: perfecto, poco flexibilidad
+
+-   Hugo&hugodown: muy (¿demasiado?) flexibilidad, cambios frequentes (però hugodown clava una versión al sitio), hugodown es experimental
+
+-   Hugo & blogdown [wishlist de Alison Presmanes Hill](https://github.com/rstudio/blogdown/issues/476)
+
+------------------------------------------------------------------------
+
+¿Qué elegir?
+============
+
+Si no quieren una estructura de sitio muy especial,
 
 -   distill
 
@@ -34,68 +36,64 @@ What to choose
 
 ------------------------------------------------------------------------
 
-What to choose
-==============
-
-Start by playing! Don't commit right away.
-
-Does any of you want to say what they'd choose and why?
-
-------------------------------------------------------------------------
-
-True for all
+¿Qué elegir?
 ============
 
--   Read the docs and follow development! :eyes:
+¿No hay que decidir immediatamente, jueguen un poco con las einas?
 
--   Backup! :warning:
+¿Hay alguién que quiere decir lo que eligió/eligiria?
 
 ------------------------------------------------------------------------
 
-Change your mind?
+Con todas las einas...
+======================
+
+-   Lean la documentacion y siguan el desarrollo! :eyes:
+
+-   Salvaguarden! :warning:
+
+------------------------------------------------------------------------
+
+Cambiar de einas?
 =================
 
--   Migration tools
+-   Buscar einas de migración (por ejemplo "from WordPress to Hugo")
 
--   `yaml`, `commonmark` packages, etc.
+-   Paquetes `yaml`, `commonmark`, etc.
 
--   Redirects! URLs are important. 404 page.
-
-------------------------------------------------------------------------
-
-Have fun!
-=========
-
-If you're worried about blogging, find a blogging buddy to read your drafts?
-
-Make efforts but don't be perfectionist.
+-   Redirects! pagina 404.
 
 ------------------------------------------------------------------------
 
-Setup is not fun
-================
+¡diviértanse!
+=============
 
--   With R helper packages, setup is smoother
+Si tienen miedo publicar entradas, busca un amig@ de R para leer sus borradores.
 
--   But in general setup = learning a new thing, hard but then you get used to it!
+Haganlo bien però no sean perfectionistas.
 
 ------------------------------------------------------------------------
 
-Regular blogging?
+Setup no es divertido
+=====================
+
+-   Con paquetes R como distill y hugodown, el setup puede ser más facil.
+
+-   Però en general instalar y utilizar cosas nuevas es dificil... por suerte nos acostrumbamos!
+
+------------------------------------------------------------------------
+
+Bloguear a menudo
 =================
 
-No you don't have to unless you call your blog "the daily blog" or so. :wink:
-
-Only write if you enjoy it! Your blog can be a portfolio/news board only.
+No hay que publicar cada dia. No llamen a su blog "Entradas de R cotidianas" o algo asi. :wink:
 
 ------------------------------------------------------------------------
 
-Tell me
-=======
+Después de mi charla
+====================
 
--   Questions this afternoon :raising_hand:
+-   Preguntas en el [repositorio del sitio](https://github.com/maelle/rmd-blogging-course/issues) :raising_hand:
 
--   Issues in the [website repo](https://github.com/maelle/rmd-blogging-course/issues) for questions :raising_hand:
-
--   [Tweets](https://twitter.com/ma_salmon)/emails to show me your websites. :star:
+-   [Tuits](https://twitter.com/ma_salmon) o correos electronicos para mostrarme su sitio. :star:
 

@@ -1,7 +1,7 @@
 ---
-title: Conclusion
+title: Conclusión
 weight: 10
 slides: true
 ---
 
-Let's debrief!
+Debrief!
