@@ -81,8 +81,6 @@ glue::glue_collapse(
   sep = ", ")
 ```
 
-y también Alison Presmanes Hill.
-
 Usado para [RStudio AI blog](https://blogs.rstudio.com/ai/).
 
 Desarrollo activo.

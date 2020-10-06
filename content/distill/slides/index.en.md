@@ -7,7 +7,7 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: 9e15832d60cc9db2
+rmd_hash: 71a581e44c70fc4e
 
 ---
 
@@ -73,11 +73,9 @@ Creado por:
 
 <div class="highlight">
 
-JJ Allaire \[aut, cre\], Rich Iannone \[aut\], Yihui Xie \[aut\]
+JJ Allaire ), Rich Iannone \[aut\], Alison Presmanes Hill \[aut\] (), Yihui Xie \[aut\] ()
 
 </div>
-
-y también Alison Presmanes Hill.
 
 Usado para [RStudio AI blog](https://blogs.rstudio.com/ai/).
 
