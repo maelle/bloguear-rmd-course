@@ -1,11 +1,11 @@
 ---
-title: Readers
+title: Lectores
 weight: 5
 chapter: true
 slides: true
 output: hugodown::md_document
 ---
 
-# Around readers
+# A proposito de l@s lectores
 
-A few tips about promoting your blog & interacting with readers.
+Consejos para promocionar su blog y interagir con lectores.

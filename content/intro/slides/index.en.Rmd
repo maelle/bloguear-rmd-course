@@ -139,7 +139,7 @@ Hoy presentaré 2 einas però tengo criterios generales.
 
 * {{% fragment %}}Reproducibilidad{{% /fragment %}}
 
-* {{% fragment %}}Promoción{{% /fragment %}}
+* {{% fragment %}}Promoción, lectores{{% /fragment %}}
 
 * {{% fragment %}}Conclusión{{% /fragment %}}
 

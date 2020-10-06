@@ -1,55 +1,60 @@
 ---
 outputs:
 - Reveal
-title: Readers
+title: Lectores
 hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 215653ad9f567b4b
+rmd_hash: 020108cfa795562c
 
 ---
 
-Promote your blog
-=================
+Promocionar un blog
+===================
 
 ------------------------------------------------------------------------
 
-Put its URL everywhere!
-=======================
+¡Su URL tiene que ser en todas partes!
+======================================
 
-Your ORCID profile, Twitter profile, GitHub profile, etc.
-
-No dead ends please!
+Perfiles (ORCID, Twitter, etc.)
 
 ------------------------------------------------------------------------
 
 R Weekly
 ========
 
-Weekly newsletter featuring links to blog posts but also slidedecks, etc., about R.
+Un boletín informativo, cada lunes, con enlaces hasta entradas de blog però también diapositivas, etc. entorno de R
 
--   One-off sharing: [web form](https://rweekly.org/submit), [PRs](https://github.com/rweekly/rweekly.org).
+Hay una categoria "R internationally".
 
--   Add your RSS feed via the [web form](https://rweekly.org/submit).
+-   Compartir una vez: [web form](https://rweekly.org/submit), [PRs](https://github.com/rweekly/rweekly.org).
+
+-   Envien su feed RSS [web form](https://rweekly.org/submit).
 
 ------------------------------------------------------------------------
 
 R Bloggers
 ==========
 
-Ingests the entire feed and repost posts.
+Ingire todo el feed y republica entradas.
 
-It can take time from [feed submission](https://www.r-bloggers.com/add-your-blog/) to feed validation.
+En inglés.
+
+Puede pasar mucho tiempo entre [cuando envian su feed](https://www.r-bloggers.com/add-your-blog/) y su validación.
 
 ------------------------------------------------------------------------
 
-Social media
-============
+Redes sociales
+==============
 
 E.g. Twitter.
 
-Write a clear text, post URL, add a few hashtags, image (or carefully crafted infographics?) + alternative text.
+-   texto claro
+-   URL
+-   algunos hashtags
+-   imagen, infografico + texto alternativo
 
 ------------------------------------------------------------------------
 
@@ -58,68 +63,63 @@ SEO
 
 Search Engine Optimization
 
--   Add links to your post
+-   Enlaces hasta su blog en otras partes
 
--   Read resources by marketers
-
-------------------------------------------------------------------------
-
-Interact with readers
-=====================
+-   Lean recursos escritos de mercadotecnia.
 
 ------------------------------------------------------------------------
 
-How to interact with readers?
+Interacciones con lectores
+==========================
+
+------------------------------------------------------------------------
+
+¿Cómo interagir con lectores?
 =============================
 
-On social media?
+¿Redes sociales?
 
-In comments? For Hugo, [Utteranc.es as an alternative to Disqus](https://masalmon.eu/2019/10/02/disqus/).
+¿Con comentarios? [Utteranc.es en vez Disqus](https://masalmon.eu/2019/10/02/disqus/).
 
 ------------------------------------------------------------------------
 
-Negative feedback
+Feedback negativo
 =================
 
-(not constructive feedback)
+(y no constructivo)
 
-Have a support system.
+¿Cuál es su sistema de apoyo, sus <a href="mailto:amig@s" class="email">amig@s</a> de R?
 
-You don't have to respond publicly, or at all.
+No tienen que contestar en publico, no tienen que contestar del todo.
 
-If *you* were wrong, listen and do better.
-
-------------------------------------------------------------------------
-
-Encouraging citations
-=====================
+Si hicieron Ustedes un error, escuchen y corrijan.
 
 ------------------------------------------------------------------------
 
-Citing your posts
-=================
+Impulsar citaciones
+===================
 
--   Distill metadata
+-   Con distill
 
--   Hugo [custom layout](https://github.com/statnmap/hugo-statnmap-theme/blob/3e2a54a9836fdd65779865e91058ba304b628336/layouts/partials/citation.html)
+-   Con Hugo, habrá que crear un [custom layout](https://github.com/statnmap/hugo-statnmap-theme/blob/3e2a54a9836fdd65779865e91058ba304b628336/layouts/partials/citation.html)
 
 -   [DOI](https://twitter.com/mfenner/status/1126523120591020032)?
 
 ------------------------------------------------------------------------
 
-Analytics
-=========
+Analítica web
+=============
 
 ------------------------------------------------------------------------
 
-Analytics
-=========
+Analítica web
+=============
 
--   Do you need numbers? E.g. if you blog at work.
+-   Necesitan numeros? Por ejemplo si bloguean al trabajo.
 
--   Are you ok using Google Analytics?
+-   Les gusta utilizar Google Analytics?
 
 -   GDPR :wink:
 
--   Alternatives? [Fathom](https://usefathom.com/)? Others?
+-   Alternativas? Matomo, Fathom... O pagan o instalan algo en un servidor.
 

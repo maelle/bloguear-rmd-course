@@ -1,48 +1,53 @@
 ---
 outputs:
 - Reveal
-title: Readers
+title: Lectores
 hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
 ---
 
-# Promote your blog
+# Promocionar un blog
 
 ---
 
-# Put its URL everywhere!
+# ¡Su URL tiene que ser en todas partes!
 
-Your ORCID profile, Twitter profile, GitHub profile, etc.
-
-No dead ends please!
+Perfiles (ORCID, Twitter, etc.)
 
 ---
 
 # R Weekly
 
-Weekly newsletter featuring links to blog posts but also slidedecks, etc., about R.
+Un boletín informativo, cada lunes, con enlaces hasta entradas de blog però también diapositivas, etc. entorno de R
 
-* One-off sharing: [web form](https://rweekly.org/submit), [PRs](https://github.com/rweekly/rweekly.org).
+Hay una categoria "R internationally".
 
-* Add your RSS feed via the [web form](https://rweekly.org/submit).
+* Compartir una vez: [web form](https://rweekly.org/submit), [PRs](https://github.com/rweekly/rweekly.org).
+
+* Envien su feed RSS [web form](https://rweekly.org/submit).
 
 ---
 
 # R Bloggers
 
-Ingests the entire feed and repost posts.
+Ingire todo el feed y republica entradas.
 
-It can take time from [feed submission](https://www.r-bloggers.com/add-your-blog/) to feed validation.
+En inglés.
+
+Puede pasar mucho tiempo entre [cuando envian su feed](https://www.r-bloggers.com/add-your-blog/) y su validación.
 
 ---
 
-# Social media
+# Redes sociales
 
 E.g. Twitter.
 
-Write a clear text, post URL, add a few hashtags, image (or carefully crafted infographics?) + alternative text.
+* texto claro
+* URL
+* algunos hashtags
+* imagen, infografico + texto alternativo
 
 ---
 
@@ -50,60 +55,58 @@ Write a clear text, post URL, add a few hashtags, image (or carefully crafted in
 
 Search Engine Optimization
 
-* Add links to your post
+* Enlaces hasta su blog en otras partes
 
-* Read resources by marketers
-
----
-
-# Interact with readers
+* Lean recursos escritos de mercadotecnia.
 
 ---
 
-# How to interact with readers?
-
-On social media?
-
-In comments? For Hugo, [Utteranc.es as an alternative to Disqus](https://masalmon.eu/2019/10/02/disqus/).
+# Interacciones con lectores
 
 ---
 
-# Negative feedback
+# ¿Cómo interagir con lectores?
 
-(not constructive feedback)
+¿Redes sociales?
 
-Have a support system.
-
-You don't have to respond publicly, or at all.
-
-If _you_ were wrong, listen and do better.
+¿Con comentarios? [Utteranc.es en vez Disqus](https://masalmon.eu/2019/10/02/disqus/).
 
 ---
 
-# Encouraging citations
+# Feedback negativo
+
+(y no constructivo)
+
+¿Cuál es su sistema de apoyo, sus amig@s de R?
+
+No tienen que contestar en publico, no tienen que contestar del todo.
+
+Si hicieron Ustedes un error, escuchen y corrijan.
 
 ---
 
-# Citing your posts
+# Impulsar citaciones
 
-* Distill metadata
 
-* Hugo [custom layout](https://github.com/statnmap/hugo-statnmap-theme/blob/3e2a54a9836fdd65779865e91058ba304b628336/layouts/partials/citation.html)
+* Con distill
+
+* Con Hugo, habrá que crear un [custom layout](https://github.com/statnmap/hugo-statnmap-theme/blob/3e2a54a9836fdd65779865e91058ba304b628336/layouts/partials/citation.html)
 
 * [DOI](https://twitter.com/mfenner/status/1126523120591020032)?
 
----
-
-# Analytics
 
 ---
 
-# Analytics
+# Analítica web
 
-* Do you need numbers? E.g. if you blog at work.
+---
 
-* Are you ok using Google Analytics? 
+# Analítica web
+
+* Necesitan numeros? Por ejemplo si bloguean al trabajo.
+
+* Les gusta utilizar Google Analytics? 
 
 * GDPR :wink:
 
-* Alternatives? [Fathom](https://usefathom.com/)? Others?
+* Alternativas? Matomo, Fathom... O pagan o instalan algo en un servidor.

@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: e7a2aad0f29de62a
+rmd_hash: 37184970d72efc91
 
 ---
 
@@ -150,7 +150,7 @@ Programa
 
 -   {{% fragment %}}Reproducibilidad{{% /fragment %}}
 
--   {{% fragment %}}Promoción{{% /fragment %}}
+-   {{% fragment %}}Promoción, lectores{{% /fragment %}}
 
 -   {{% fragment %}}Conclusión{{% /fragment %}}
 

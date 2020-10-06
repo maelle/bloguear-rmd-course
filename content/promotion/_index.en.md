@@ -1,15 +1,15 @@
 ---
-title: Readers
+title: Lectores
 weight: 5
 chapter: true
 slides: true
 output: hugodown::md_document
-rmd_hash: 0b4574a0f75ea15b
+rmd_hash: d09e5ff2d3d21072
 
 ---
 
-Around readers
-==============
+A proposito de <a href="mailto:l@s" class="email">l@s</a> lectores
+==================================================================
 
-A few tips about promoting your blog & interacting with readers.
+Consejos para promocionar su blog y interagir con lectores.
 
