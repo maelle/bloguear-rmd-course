@@ -58,6 +58,16 @@ Si no quieren una estructura de sitio muy especial,
 
 ---
 
+# Mantener un sitio
+
+* Atreverse a crearlo de verdad (con un grupo de amig@s?)
+
+* Mantener el contenido
+
+* Mantener las einas
+
+---
+
 # ¡diviértanse!
 
 Si tienen miedo publicar entradas, busca un amig@ de R para leer sus borradores.
@@ -66,7 +76,7 @@ Haganlo bien però no sean perfectionistas.
 
 ---
 
-# Setup no es divertido
+# El setup no es divertido
 
 * Con paquetes R como distill y hugodown, el setup puede ser más facil.
 

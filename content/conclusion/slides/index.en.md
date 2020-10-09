@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: b7708d0b3368a014
+rmd_hash: 0e610789eb9763a6
 
 ---
 
@@ -65,6 +65,17 @@ Cambiar de einas?
 
 ------------------------------------------------------------------------
 
+Mantener un sitio
+=================
+
+-   Atreverse a crearlo de verdad (con un grupo de <a href="mailto:amig@s" class="email">amig@s</a>?)
+
+-   Mantener el contenido
+
+-   Mantener las einas
+
+------------------------------------------------------------------------
+
 ¡diviértanse!
 =============
 
@@ -74,8 +85,8 @@ Haganlo bien però no sean perfectionistas.
 
 ------------------------------------------------------------------------
 
-Setup no es divertido
-=====================
+El setup no es divertido
+========================
 
 -   Con paquetes R como distill y hugodown, el setup puede ser más facil.
 
